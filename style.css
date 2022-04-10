@@ -1,0 +1,165 @@
+
+
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: url('img/songwriter-in-nature.jpg') 50% 70% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    align-content: center;
+    font-family: Syne, Helvetica, sans-serif;
+}
+
+
+.social {
+    flex: 1;
+    flex-direction: row;
+    padding: 2vw;
+    color: aliceblue;
+    font-size: 4vh;
+    margin: 0 5vw;
+}
+
+i:hover, i:focus, i:active {
+    color: silver;
+    transform: rotate(-30deg);
+}
+
+.name {
+    flex: 1;
+    color: aliceblue;
+    font-size: 5vw;
+}
+
+.leave-space {
+    display: flex;
+    height: 55vh;
+    justify-content: flex-end;
+}
+
+nav {
+    display: flex;
+    flex-flow: column;
+    font-family: Syne, Helvetica, sans-serif;
+}
+
+nav a {
+    background-color: rgba(40, 40, 40, 0.6);
+    padding: 1vh 5vw 1vh 1vw;
+    margin: 1vh;
+    border-radius: 3px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: scroll;
+    background-color: rgba(40, 40, 40, 0.6);
+    color: aliceblue;
+    font-size: 1rem;
+    margin: 0 10vw;
+}
+
+.onefem {
+    margin: 5vh 5vw 25vh 5vw; 
+}
+
+.onefem iframe {
+    height: 100%;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover, a:focus, a:active {
+    text-decoration: underline;
+    color: silver;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: scroll;
+    background-color: rgba(40, 40, 40, 0.6);
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 5vw;
+    margin: 10vh 10vw;
+}
+
+.oneR {
+    text-align: right;
+}
+
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    overflow: scroll;
+    text-align: center;
+    background-color: rgba(40, 40, 40, 0.6);
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 5vw;
+    margin: 0 10vw 10vh 10vw;
+}
+
+.tour {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    overflow: scroll;
+    text-align: center;
+    background-color: rgba(40, 40, 40, 0.6);
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 5vw;
+    margin: 0 10vw 10vh 10vw;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: scroll;
+    text-align: center;
+    background-color: rgba(40, 40, 40, 0.6);
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 5vw;
+    margin: 0 10vw 10vh 10vw;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    align-content: center;
+    background-color: rgba(40, 40, 40, 0.6);
+    color: aliceblue;
+}
