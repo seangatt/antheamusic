@@ -34,13 +34,12 @@
     </header>
 
     <div class="leave-space">
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2JoYk2olpFFpLNHDaWFvHu?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         <script>
-            document.addEventListener('DOMContentLoaded', function() {
+            function autoplay(){
             var x = document.querySelector('[title="Play"]');
-            x.click();
-            }, false);
+            x.click();}
             </script>
+        <iframe onload="autoplay()" style="border-radius:12px" src="https://open.spotify.com/embed/track/2JoYk2olpFFpLNHDaWFvHu?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
     </div>
     <footer>
 
